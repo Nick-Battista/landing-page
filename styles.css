@@ -219,3 +219,18 @@ button {
     border-color: #F9FAF8;
     font-size: 16px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 36px auto;
+}
