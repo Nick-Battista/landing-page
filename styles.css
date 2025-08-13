@@ -121,6 +121,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 48px;
+    margin-bottom: 120px;
 }
 
 .container-one, .container-two, .container-three, .container-four {
@@ -141,4 +142,38 @@ button {
     margin: 10px auto;
     width: 200px;
     text-align: center;
+}
+
+/* Section-Three */
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    margin: 96px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 775px;
+}
+
+.author {
+    margin: 0;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 24px;
 }
