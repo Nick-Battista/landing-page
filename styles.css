@@ -98,3 +98,47 @@ button {
     padding: 8px 24px;
     border-radius: 5px;
 }
+
+/* Section-Two */
+
+.section-two {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.container-one, .container-two, .container-three, .container-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-one, .img-two, .img-three, .img-four {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.content p {
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+}
