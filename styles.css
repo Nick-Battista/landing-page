@@ -58,13 +58,12 @@ ul {
 }
 
 .right-side {
-    background-color: rgb(119, 119, 119);
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
-    height: 225px;
+    height: auto;
+    border-radius: 5px;
 }
 
 .left-side h1 {
